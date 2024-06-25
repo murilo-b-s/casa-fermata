@@ -148,25 +148,25 @@ ul{
     margin-right: 10px;
 }
 
-.container-slogan{
+.container-slogan-e-recital{
     background-color: #22322c;
-    height: 350px;
+    height: 500px;
     color: #fff2d0;
     text-align: center;
 }
 
-.container-slogan .escola{
+.container-slogan-e-recital .escola{
     padding-top: 20px;
     font-size: 40px;
     font-weight: normal;
 
 }
 
-.container-slogan .slogan{
+.container-slogan-e-recital .slogan{
     font-size: 40px;
     font-weight: normal;
 }
-.container-slogan .slogan strong{
+.container-slogan-e-recital .slogan strong{
     font-size: 45px;
     font-weight: bold;
 }
@@ -176,12 +176,31 @@ ul{
 
 hr{
     border-color: #fff2d0;
-    margin-top: 20px 20px;
+    margin: 20px auto;
     border: 1px solid;
-    padding: x;
+    width: 95%;
 }
 
 p{
     margin-top: 0px;
 }
 
+.recital-inicio{
+    width: 900px;
+    margin: 0 auto;
+}
+.titulo-recital-inicio{
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.imagens{
+    float: left;
+}
+
+.recital-inicio img{
+    width: 220px;
+    height: 160px;
+    margin: 30px 10px 15px;
+    padding: 0 30px;
+}
