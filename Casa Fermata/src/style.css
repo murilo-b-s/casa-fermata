@@ -196,8 +196,10 @@ p{
 
 .recital-inicio{
     width: 900px;
-    margin: 0 auto;
+    margin: 0 auto 30px;
+    overflow: hidden;
 }
+
 .titulo-recital-inicio{
     font-size: 30px;
     font-weight: normal;
@@ -213,3 +215,30 @@ p{
     margin: 30px 10px 15px;
     padding: 0 30px;
 }
+
+.motivos-para-estudar{
+    text-align: center;
+}
+
+.motivos-para-estudar h1{
+    font-size: 30px;
+    font-weight: normal;
+    margin: 20px 0 50px;
+}
+
+.motivos{
+    display: flex;
+    width: 700px;
+    margin: 10px auto 20px;
+    gap: 440px;
+}
+
+.card img{
+    width: 100px;
+}
+
+.card{
+    width: 130px;
+    height: 150px;
+}
+
