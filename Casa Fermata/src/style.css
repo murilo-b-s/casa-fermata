@@ -82,22 +82,31 @@ img{
 
 .banner{
     height: 300px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.banner{
     display: flex;
+    height: 300px;
+    width: 100%;
 }
 
-.foto1{
-    background-image: url(/src/imagens/foto1.png);
-    background-repeat: no-repeat;
-    width: 50%;
-    height: 100%;
+.foto {
+    flex: 1; /* Faz com que cada div ocupe uma fração igual do espaço disponível */
+    background-size: cover; /* Ajusta a imagem para cobrir o elemento */
+    background-position: center; /* Centraliza a imagem */
+    height: 100%; /* Faz com que a altura da imagem seja igual à do banner */
 }
 
-.foto2{
-    background-image: url(/src/imagens/foto2.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 50%;
-    height: 100%;
+/* Imagem 1 */
+.foto1 {
+    background-image: url(../src/imagens/foto1.png);
+}
+
+/* Imagem 2 */
+.foto2 {
+    background-image: url(../src/imagens/foto2.png);
 }
 
 .teste{
