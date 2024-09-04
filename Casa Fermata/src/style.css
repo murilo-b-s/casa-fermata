@@ -86,6 +86,7 @@ img{
     height: 300px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-top: 90px;
 }
 
 .banner{
@@ -124,7 +125,6 @@ img{
     transition: .3s;
     position: fixed;
     top: 90px;
-
 }
 
 
