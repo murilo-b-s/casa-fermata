@@ -24,6 +24,7 @@ body{
     align-items: center;
     justify-content: space-between;
     position: fixed;
+    top: 0;
     width: 100%;
 }
 .nome{
@@ -129,6 +130,7 @@ img{
 
 
 .menu a{
+    width: 150px;
     color: #fff2d0;
     font-size: 20px;
     margin: 0px;
