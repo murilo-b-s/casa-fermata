@@ -13,7 +13,7 @@ body{
 
 .cabecalho{
     background-color: #000;
-    height: 180px;
+    height: 150px;
     padding-top: 15px;
     text-align: center;
     width: 100%;
@@ -23,11 +23,11 @@ body{
     text-align: center;
 }
 img{
-    width: 150px;
+    width: 130px;
 }
 
 .cabecalho nav{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 
@@ -69,8 +69,8 @@ img{
 .menu li:hover{
     color: #22322c;
     background-color: #fff2d0;
-    border-radius: 5px; */
-}
+    border-radius: 5px; 
+}*/
 /* 
 .btn{
     cursor: pointer;
@@ -330,4 +330,10 @@ p{
     margin: 20px 0;
     padding: 15px;
     color: #22322c;
+}
+
+.localizacao img{
+    display: block;
+    width: 400px;
+    margin: 0 auto;
 }
