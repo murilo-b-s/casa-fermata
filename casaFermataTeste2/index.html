@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="cabecalho">
+    <header class="cabecalho" id="cabecalho">
         <div class="logo">
             <img src="src/imagens/casafermata6.png" alt="Logo da espresa Casa Fermata">
         </div>
@@ -19,7 +19,7 @@
             <ul class="menu">
                 <li><a href="#">Aulas</a></li>
                 <li><a href="#">Eventos</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#footer">Contato</a></li>
                 <li><a href="#">Sobre nós</a></li>
             </ul>
         </nav>
@@ -30,26 +30,68 @@
     <section class="slogan recital">
         <h1>Escola de música <br> Seu caminho para a Liberdade Musical</h1>
         <hr>
-        <article class="cards">
-            <div class="card">
+        <article class="cards-alunos">
+            <div class="card-aluno">
                 <img src="src/imagens/aluna-de-ukulele.png" alt="">
                 <p>Aluna de ukulele</p>
             </div>
-            <div class="card">
+            <div class="card-aluno">
                 <img src="src/imagens/aluna-de-violao.png" alt="">
                 <p>Aluna de violão</p>
             </div>
-            <div class="card">
+            <div class="card-aluno">
                 <img src="src/imagens/aluna-violao-gaucho.png" alt="">
                 <p>Aluna de violão gaúcho</p>
             </div>
-            <div class="card">
+            <div class="card-aluno">
                 <img src="src/imagens/alunosViolino.jpg" alt="">
                 <p>Alunos de violino</p>
             </div>
         </article>
     </section>
-    
+    <section class="motivos">
+        <h3>Motivos para ser nosso aluno:</h3>
+        <article class="cards-motivos">
+            <div class="card-motivo">
+                <img src="src/imagens/barrete.png" alt="">
+                <p>Professores formados</p>
+            </div>
+            <div class="card-motivo">
+                <img src="src/imagens/open.png" alt="">
+                <p>Escola aberta durante o ano inteiro</p>
+            </div>
+            <div class="card-motivo">
+                <img src="src/imagens/books.png" alt="">
+                <p>Material didático incluso</p>
+            </div>
+            <div class="card-motivo">
+                <img src="src/imagens/bateria.png" alt="">
+                <p>Sem necessidade de instrumento próprio</p>
+            </div>
+            <div class="card-motivo">
+                <img src="src/imagens/notebook.png" alt="">
+                <p>Aulas presenciais e on-line</p>
+            </div>
+        </article>
+        <hr>
+    </section>
+    <footer id="footer">
+        <div class="logo-footer">
+            <img src="src/imagens/casafermata6.png" alt="">
+        </div>
+        <div class="escritas-footer">
+            <p>Casa Fermata <br> Av. Senador Salgado Filho, 8665. Viamão, RS</p>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#cabecalho">Início</a></li>
+                    <li><a href="#">Aulas</a></li>
+                    <li><a href="#">Eventos</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Sobre nós</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
