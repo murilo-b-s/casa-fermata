@@ -27,6 +27,7 @@
         </div>
         <nav>
             <ul class="menu">
+                <li><a href="index.html">Início</a></li>
                 <li><a href="aulas.html">Aulas</a></li>
                 <li><a href="#">Eventos</a></li>
                 <li><a href="#footer">Contato</a></li>
@@ -68,27 +69,26 @@
             </li>
         </ul>
     </nav>
-    <section class="m-5"> 
+    <section class="container"> 
         <button class="accordion" type="button">
             <span>Modalidades de aulas</span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16" class="img-seta">
                 <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1"/>
             </svg>
         </button>
         <div class="panel">
-            <div class="row p-5">
+            <div class="itens-modalidades">
                 <!-- Item 1 -->
                 <div class="col-lg-4 mb-4">
-                    <div class="d-flex flex-lg-row flex-column align-items-center">
-                        <img src="../src/imagens/bateriaAula.png" alt="" class="img-fluid me-lg-3 mb-3 mb-lg-0">
+                    <div class="d-flex flex-lg-row flex-column align-items-center cards">
+                        <img src="../src/imagens/bateriaAula.png" alt="" class="img-itens">
                         <div>
                             <p class="text-center text-lg-start">Bateria</p>
                         </div>
                     </div>
                 </div>
-                <!-- Item 2 -->
                 <div class="col-lg-4 mb-4">
-                    <div class="d-flex flex-lg-row flex-column align-items-center">
+                    <div class="d-flex flex-lg-row flex-column align-items-center cards">
                         <img src="../src/imagens/violao-classico.png" alt="" class="img-fluid me-lg-3 mb-3 mb-lg-0">
                         <div>
                             <p class="text-center text-lg-start">Violão</p>
@@ -97,7 +97,7 @@
                 </div>
                 <!-- Item 3 -->
                 <div class="col-lg-4 mb-6">
-                    <div class="d-flex flex-lg-row flex-column align-items-center">
+                    <div class="d-flex flex-lg-row flex-column align-items-center cards">
                         <img src="../src/imagens/violino.png" alt="" class="img-fluid me-lg-3 mb-3 mb-lg-0">
                         <div>
                             <p class="text-center text-lg-start">Violino</p>
@@ -106,7 +106,7 @@
                 </div>
                 <!-- Item 4 -->
                 <div class="col-lg-4 mb-4">
-                    <div class="d-flex flex-lg-row flex-column align-items-center">
+                    <div class="d-flex flex-lg-row flex-column align-items-center cards">
                         <img src="../src/imagens/ukelele.png" alt="" class="img-fluid w-10 me-lg-3 mb-3 mb-lg-0">
                         <div>
                             <p class="text-center text-lg-start">Ukulele</p>
@@ -115,7 +115,7 @@
                 </div>
                 <!-- Item 5 -->
                 <div class="col-lg-4 mb-4">
-                    <div class="d-flex flex-lg-row flex-column align-items-center">
+                    <div class="d-flex flex-lg-row flex-column align-items-center cards">
                         <img src="../src/imagens/microfone.png" alt="" class="img-fluid me-lg-3 mb-3 mb-lg-0">
                         <div>
                             <p class="text-center text-lg-start">Técnica vocal</p>
@@ -123,7 +123,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 mb-4">
-                    <div class="d-flex flex-lg-row flex-column align-items-center">
+                    <div class="d-flex flex-lg-row flex-column align-items-center cards">
                         <img src="../src/imagens/guitarra-eletrica.png" alt="" class="img-fluid me-lg-3 mb-3 mb-lg-0">
                         <div>
                             <p class="text-center text-lg-start">guitarra-eletrica</p>
@@ -135,70 +135,55 @@
         
         
         <button class="accordion" type="button">
-            <span>Vinhos</span>
+            <span>Professores</span>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1"/>
             </svg>
         </button>
         <div class="panel">
-            <div class="row">
-                <!-- Item 1 -->
+            <div class="itens-professores">
                 <div class="col-lg-6 mb-4">
                     <div class="d-flex flex-lg-row flex-column align-items-center">
-                        <img src="../images/wines/wine1.png" alt="Domaine de la Romanée-Conti" class="img-fluid me-lg-3 mb-3 mb-lg-0" style="max-width: 200px;">
+                        <img src="../src/imagens/profmateus.jpg" alt="Domaine de la Romanée-Conti" class="img-itens">
                         <div>
-                            <p class="text-center text-lg-start">Domaine de la Romanée-Conti Grand Cru: Um dos vinhos mais exclusivos do mundo, vindo da Borgonha, França.</p>
-                            <p class="text-center text-lg-start fw-bold">R$150.000,00</p>
+                            <p class="text-center text-lg-start fw-bold">Prof. Mateus</p>
+                            <p class="text-center text-lg-start">Guitarra / Violino / Violão / Gaita de boca</p>
                         </div>
                     </div>
                 </div>
-                <!-- Item 2 -->
+            </div>
+            <hr>
+            <div class="itens-professores">
                 <div class="col-lg-6 mb-4">
-                    <div class="d-flex flex-lg-row flex-column align-items-center">
-                        <img src="../images/wines/wine2.png" alt="Château Margaux 2005" class="img-fluid me-lg-3 mb-3 mb-lg-0" style="max-width: 200px;">
+                    <div class="d-flex flex-lg-row flex-column align-items-center cards-prof">
+                        <img src="../src/imagens/profmauricio.jpg" alt="Domaine de la Romanée-Conti" class="img-itens">
                         <div>
-                            <p class="text-center text-lg-start">Château Margaux 2005: Um Bordeaux lendário com notas complexas de frutas escuras e especiarias.</p>
-                            <p class="text-center text-lg-start fw-bold">R$25.000,00</p>
+                            <p class="text-center text-lg-start fw-bold">Prof. Mauricio</p>
+                            <p class="text-center text-lg-start">Piano / Teclado </p>
                         </div>
                     </div>
                 </div>
-                <!-- Item 3 -->
+            </div>
+            <hr>
+            <div class="itens-professores">
                 <div class="col-lg-6 mb-4">
                     <div class="d-flex flex-lg-row flex-column align-items-center">
-                        <img src="../images/wines/wine3.png" alt="Sassicaia 2015" class="img-fluid me-lg-3 mb-3 mb-lg-0" style="max-width: 200px;">
+                        <img src="../src/imagens/profmateus.jpg" alt="Domaine de la Romanée-Conti" class="img-itens">
                         <div>
-                            <p class="text-center text-lg-start">Sassicaia 2015: Um "Super Toscano" renomado, blend de Cabernet Sauvignon e Cabernet Franc.</p>
-                            <p class="text-center text-lg-start fw-bold">R$5.800,00</p>
+                            <p class="text-center text-lg-start fw-bold">Prof.</p>
+                            <p class="text-center text-lg-start"> _________ / _________ / _________ / _________ </p>
                         </div>
                     </div>
                 </div>
-                <!-- Item 4 -->
+            </div>
+            <hr>
+            <div class="itens-professores">
                 <div class="col-lg-6 mb-4">
                     <div class="d-flex flex-lg-row flex-column align-items-center">
-                        <img src="../images/wines/wine4.png" alt="Amarone della Valpolicella" class="img-fluid me-lg-3 mb-3 mb-lg-0" style="max-width: 200px;">
+                        <img src="../src/imagens/profmauricio.jpg" alt="Domaine de la Romanée-Conti" class="img-itens">
                         <div>
-                            <p class="text-center text-lg-start">Amarone della Valpolicella Classico: Um vinho encorpado feito com uvas passificadas.</p>
-                            <p class="text-center text-lg-start fw-bold">R$2.500,00</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Item 5 -->
-                <div class="col-lg-6 mb-4">
-                    <div class="d-flex flex-lg-row flex-column align-items-center">
-                        <img src="../images/wines/wine5.png" alt="Brunello di Montalcino" class="img-fluid me-lg-3 mb-3 mb-lg-0" style="max-width: 200px;">
-                        <div>
-                            <p class="text-center text-lg-start">Brunello di Montalcino Riserva: Um dos vinhos mais prestigiados da Itália, feito com Sangiovese.</p>
-                            <p class="text-center text-lg-start fw-bold">R$1.200,00</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Item 6 -->
-                <div class="col-lg-6 mb-4">
-                    <div class="d-flex flex-lg-row flex-column align-items-center">
-                        <img src="../images/wines/wine6.png" alt="Barolo DOCG" class="img-fluid me-lg-3 mb-3 mb-lg-0" style="max-width: 200px;">
-                        <div>
-                            <p class="text-center text-lg-start">Barolo DOCG: "O Rei dos Vinhos", produzido no Piemonte, com sabor intenso e taninos marcantes.</p>
-                            <p class="text-center text-lg-start fw-bold">R$850,00</p>
+                            <p class="text-center text-lg-start fw-bold">Prof.</p>
+                            <p class="text-center text-lg-start"> _________ / _________ / _________ / _________</p>
                         </div>
                     </div>
                 </div>
@@ -207,7 +192,7 @@
         
         
         <button class="accordion" type="button">
-            <span>Sobremesas</span>
+            <span>Fotos das aulas</span>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1"/>
             </svg>
@@ -215,63 +200,54 @@
         <div class="panel">
             <div class="row">
                 <!-- Item 1 -->
-                <div class="col-lg-6 mb-4">
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
                     <div class="d-flex flex-lg-row flex-column align-items-center">
-                        <img src="../images/desserts/dessert1.png" alt="" class="img-fluid me-lg-3 mb-3 mb-lg-0">
-                        <div>
-                            <p class="text-center text-lg-start">Tiramisu: Sobremesa cremosa feita com camadas de biscoitos embebidos em café.</p>
-                            <p class="text-center text-lg-start fw-bold">R$50,00</p>
-                        </div>
+                        <img src="../src/imagens/aluna-de-ukulele.png" alt="" class="img-fluid me-lg-3 mb-3 mb-lg-0">
                     </div>
                 </div>
                 <!-- Item 2 -->
-                <div class="col-lg-6 mb-4">
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
                     <div class="d-flex flex-lg-row flex-column align-items-center">
-                        <img src="../images/desserts/dessert2.png" alt="" class="img-fluid me-lg-3 mb-3 mb-lg-0">
-                        <div>
-                            <p class="text-center text-lg-start">Panna Cotta: Creme de leite cozido e adoçado, servido gelado, geralmente com calda de frutas vermelhas, caramelo ou chocolate.</p>
-                            <p class="text-center text-lg-start fw-bold">R$40,00</p>
-                        </div>
+                        <img src="../src/imagens/aluna-de-violao.png" alt="" class="img-fluid me-lg-3 mb-3 mb-lg-0">
                     </div>
                 </div>
                 <!-- Item 3 -->
-                <div class="col-lg-6 mb-4">
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
                     <div class="d-flex flex-lg-row flex-column align-items-center">
-                        <img src="../images/desserts/dessert3.png" alt="" class="img-fluid me-lg-3 mb-3 mb-lg-0">
-                        <div>
-                            <p class="text-center text-lg-start">Cannoli Siciliani: Massa frita crocante em forma de tubo recheada com ricota doce, frequentemente acompanhada de frutas cristalizadas, chocolate ou pistache.</p>
-                            <p class="text-center text-lg-start fw-bold">R$35,00</p>
-                        </div>
+                        <img src="../src/imagens/aluna-violao-gaucho.png" alt="" class="img-fluid me-lg-3 mb-3 mb-lg-0">
                     </div>
                 </div>
                 <!-- Item 4 -->
-                <div class="col-lg-6 mb-4">
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
                     <div class="d-flex flex-lg-row flex-column align-items-center">
-                        <img src="../images/desserts/dessert4.png" alt="" class="img-fluid me-lg-3 mb-3 mb-lg-0">
-                        <div>
-                            <p class="text-center text-lg-start">Gelato: Sorvete italiano cremoso e artesanal, disponível em sabores clássicos como pistache, chocolate, limão siciliano e frutas vermelhas.</p>
-                            <p class="text-center text-lg-start fw-bold">R$25,00</p>
-                        </div>
+                        <img src="../src/imagens/alunosViolino.jpg" alt="" class="img-fluid me-lg-3 mb-3 mb-lg-0">
                     </div>
                 </div>
                 <!-- Item 5 -->
-                <div class="col-lg-6 mb-4">
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
                     <div class="d-flex flex-lg-row flex-column align-items-center">
-                        <img src="../images/desserts/dessert5.png" alt="" class="img-fluid me-lg-3 mb-3 mb-lg-0">
-                        <div>
-                            <p class="text-center text-lg-start">Sfogliatella: Massa folhada em formato de concha recheada com ricota doce e casca de laranja cristalizada.</p>
-                            <p class="text-center text-lg-start fw-bold">R$35,00</p>
-                        </div>
+                        <img src="../src/imagens/aluna-de-ukulele.png" alt="" class="img-fluid me-lg-3 mb-3 mb-lg-0">
                     </div>
                 </div>
                 <!-- Item 6 -->
-                <div class="col-lg-6 mb-4">
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
                     <div class="d-flex flex-lg-row flex-column align-items-center">
-                        <img src="../images/desserts/dessert6.png" alt="" class="img-fluid me-lg-3 mb-3 mb-lg-0">
-                        <div>
-                            <p class="text-center text-lg-start">Zabaione: Creme espumoso feito com gemas, açúcar e vinho Marsala, servido quente ou frio.</p>
-                            <p class="text-center text-lg-start fw-bold">R$50,00</p>
-                        </div>
+                        <img src="../src/imagens/aluna-de-violao.png" alt="" class="img-fluid me-lg-3 mb-3 mb-lg-0">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="d-flex flex-lg-row flex-column align-items-center">
+                        <img src="../src/imagens/aluna-violao-gaucho.png" alt="" class="img-fluid me-lg-3 mb-3 mb-lg-0">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="d-flex flex-lg-row flex-column align-items-center">
+                        <img src="../src/imagens/alunosViolino.jpg" alt="" class="img-fluid me-lg-3 mb-3 mb-lg-0">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="d-flex flex-lg-row flex-column align-items-center">
+                        <img src="../src/imagens/aluna-de-ukulele.png" alt="" class="img-fluid me-lg-3 mb-3 mb-lg-0">
                     </div>
                 </div>
             </div>

@@ -8,7 +8,7 @@ html{
 }
 
 body{
-    font-family: "Josefin Sans";
+    font-family: "Josefin Sans" !important;
     background-color: #fff2d0 !important;
 }
 .menu-responsivo{
@@ -60,6 +60,9 @@ body{
     border: 1px solid #fff2d0;
 }
 
+.container{
+    margin-top: 50px;
+}
 
 .accordion {
     background-color: #22322c;
@@ -94,7 +97,7 @@ body{
 
 .panel {
     color:#000;
-    padding: 0 18px;
+    padding: 0 5%;
     background-color: rgba(34, 50, 44, 10%);
     max-height: 0;
     overflow: hidden;
@@ -113,18 +116,42 @@ body{
     text-align: justify;
 }
 
-.item{
-    display: flex;
-    flex-direction: row;
+.itens-modalidades{
+    display: flex; 
+    flex-wrap: wrap;
 }
 
-.item-plate{
+.itens-modalidades p{
+    width: 130px;
+    margin-left: 20px;
+}
+
+.cards img{
+    width: 150px;
+}
+
+.itens-professores{
+    padding: 0 25%;
+    width: 100%;
+}
+.itens-professores p{
+    width: 500px;
+    margin-left: 30px;
+}
+
+.cards-prof{
+    margin: 0 auto;
+}
+
+
+
+/* .item-plate{
     display: flex;
     flex-direction: row;
     align-items: center;
     position: relative;
     padding: 10px;
-}
+} */
 
 svg {
     transition: transform 0.3s ease-in-out;
