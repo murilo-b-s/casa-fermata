@@ -119,6 +119,7 @@ body{
 .itens-modalidades{
     display: flex; 
     flex-wrap: wrap;
+    margin-top: 15px;
 }
 
 .itens-modalidades p{
@@ -133,6 +134,7 @@ body{
 .itens-professores{
     padding: 0 25%;
     width: 100%;
+    margin-top: 15px;
 }
 .itens-professores p{
     width: 500px;
@@ -141,6 +143,10 @@ body{
 
 .cards-prof{
     margin: 0 auto;
+}
+
+.row .itens-row{
+    margin-top: 15px;
 }
 
 
@@ -263,6 +269,21 @@ footer .menu a{
     footer{
         font-size: 12px;
     }
+
+    .itens-professores .img-itens{
+        width: 150px;
+    }
+
+    .itens-modalidades{
+        width: 90%;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+    .itens-modalidades p{
+        margin: 0 auto;
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 430px) {
@@ -341,43 +362,70 @@ footer .menu a{
     top: 0px;
     right: 0;
     z-index: 8;
-}
+    }
 
-.menu-responsivo a{
-    width: 150px;
-    color: #fff2d0;
-    font-size: 16px;
-    margin: 0px;
-    padding: 6px 12px;
-    text-decoration: none;
-    display: flex;
-    margin: 15px;
-}
+    .menu-responsivo a{
+        width: 150px;
+        color: #fff2d0;
+        font-size: 16px;
+        margin: 0px;
+        padding: 6px 12px;
+        text-decoration: none;
+        display: flex;
+        margin: 15px;
+    }
 
-.icon img{
-    width: 30px;
-    margin: 3px 20px 3px 0;
-}
+    .icon img{
+        width: 30px;
+        margin: 3px 20px 3px 0;
+    }
 
-.texto-menu{
-    margin: 5px;
-}
+    .texto-menu{
+        margin: 5px;
+    }
 
-.menu-responsivo a:hover{
-    background-color: #fff2d0;
-    color: #22322c;
-    font-weight: 700;
-    transition: .5s;
-    width: 100%;
-}
+    .menu-responsivo a:hover{
+        background-color: #fff2d0;
+        color: #22322c;
+        font-weight: 700;
+        transition: .5s;
+        width: 100%;
+    }
 
-.menu-responsivo ul{
-    width: 100%;
-    margin-right: 10px;
-    padding-top: 80px;    
-}
-.btn.open{
-    position: fixed;
-    top: 40px;
-}
+    .menu-responsivo ul{
+        width: 100%;
+        margin-right: 10px;
+        padding-top: 80px;    
+    }
+    .btn.open{
+        position: fixed;
+        top: 40px;
+    }
+
+    .img-itens{
+        width: 100px;
+    }
+
+    .itens-professores p{
+        font-size: 12px;
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    .itens-modalidades{
+        width: 100%;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+    .itens-modalidades p{
+        margin: 0 auto;
+        font-size: 12px;
+    }
+
+    .itens-modalidades .img-itens{
+        width: 100px;
+        height: 100px;
+    }
+
 }
