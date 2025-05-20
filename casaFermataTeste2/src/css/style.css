@@ -8,7 +8,7 @@ html{
 }
 
 body{
-    font-family: "Josefin Sans";
+    font-family: "Josefin Sans" !important;
 }
 .menu-responsivo{
     display: none;
@@ -288,49 +288,61 @@ footer .menu a{
         height: 80px;
         z-index: 9;
     }
+    
     .logo img{
         width: 60px;
     }
+
     h1{
         font-size: 24px;
     }
+
     .banner{
         height: 100px;
     }
+
     .cards-alunos, .cards-motivos{
         flex-wrap: wrap;
         justify-content: space-around;
         width: 90%;
         margin: 20px auto 0;
     }
+
     .card-aluno, .card-motivo {
         width: 45%;
         margin-bottom: 15px;
         height: auto;
         font-size: 14px;
     }
+
     .card-aluno img{
         width: 90%;
         height: 150px;
         margin: 5px 0;
     }
+
     .card-aluno p{
         padding: 5px;
     }
+
     .card-motivo{
         width: 40%;
     }
+
     .card-motivo img{
         margin-bottom: 5px;
     }
+
     h3{
         padding: 20px;
         font-size: 20px;
     }
+
     .mapa{
         width: 80%;
         height: 350px;
     }
+
     .escritas-footer{
         display: block;
         position: static;
@@ -339,6 +351,7 @@ footer .menu a{
     .logo-footer img{
         width: 10%;
     }
+
     footer{
         text-align: center;
         padding: 15px 0;
@@ -387,56 +400,55 @@ footer .menu a{
         transition: width 0.3s ease;
     }
     .menu-responsivo.aberto{
-    width: 50%;
-    height: 100%;
-    overflow: hidden;
-    margin: 0;
-    background-color: rgba(34, 50, 44, 0.9);
-    background-color: rgba(0, 0, 0, 0.9);
-    transition: .3s;
-    position: fixed;
-    top: 0px;
-    right: 0;
-    z-index: 8;
-}
+        width: 50%;
+        height: 100%;
+        overflow: hidden;
+        margin: 0;
+        background-color: rgba(34, 50, 44, 0.9);
+        background-color: rgba(0, 0, 0, 0.9);
+        transition: .3s;
+        position: fixed;
+        top: 0px;
+        right: 0;
+        z-index: 8;
+    }
 
-.menu-responsivo a{
-    width: 150px;
-    color: #fff2d0;
-    font-size: 16px;
-    margin: 0px;
-    padding: 6px 12px;
-    text-decoration: none;
-    display: flex;
-    margin: 10px;
-}
+    .menu-responsivo a{
+        width: 150px;
+        color: #fff2d0;
+        font-size: 16px;
+        margin: 0px;
+        padding: 6px 12px;
+        text-decoration: none;
+        display: flex;
+        margin: 10px;
+    }
 
-.icon img{
-    width: 25px;
-    margin: 3px 20px 3px 0;
-}
+    .icon img{
+        width: 25px;
+        margin: 3px 20px 3px 0;
+    }
 
-.texto-menu{
-    /* margin: 5px; */
-    font-size: 16px;
-}
+    .texto-menu{
+        font-size: 16px;
+    }
 
-.menu-responsivo a:hover{
-    background-color: #fff2d0;
-    color: #22322c;
-    font-weight: 700;
-    transition: .5s;
-    width: 100%;
-}
+    .menu-responsivo a:hover{
+        background-color: #fff2d0;
+        color: #22322c;
+        font-weight: 700;
+        transition: .5s;
+        width: 100%;
+    }
 
-.menu-responsivo ul{
-    width: 100%;
-    margin-right: 10px;
-    padding: 80px 0;    
+    .menu-responsivo ul{
+        width: 100%;
+        margin-right: 10px;
+        padding: 80px 0;    
 
-}
-.btn.open{
-    position: fixed;
-    top: 40px;
-}
+    }
+    .btn.open{
+        position: fixed;
+        top: 40px;
+    }
 }
